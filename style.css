@@ -1,0 +1,93 @@
+body {
+    background-color:white;
+}
+/*container class for send otp page */
+.container {
+    height: 210px;
+    width: 300px;
+    display: inline-block;
+    margin-left: 460px;
+    margin-top: 190px;
+    background: #0000ff;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 12px;
+    padding: 30px 40px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+/*container class for verify otp page */
+.container2 {
+    height: 210px;
+    width: 300px;
+    display: inline-block;
+    margin-left: 460px;
+    margin-top: 190px;
+    background: #0000ff;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 12px;
+    padding: 30px 40px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.container:hover {
+    transform: scale(1.1);
+}
+
+h1 {
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color:white;
+    margin-top: 20px;
+}
+
+.mbnumber {
+    float: left;
+    width: 100%;
+    height: 100%;
+    border-radius: 9px;
+    border: none;
+    outline: none;
+    background: white;
+    margin-left: -10px;
+    margin-top: 12px;
+    padding: 10px;
+    color: #080808;
+    position: relative;
+    text-align: center;
+}
+.mbnumber::placeholder{
+    color: #080808;
+}
+
+.btn {
+    float: left;
+    margin-left: -10px;
+    margin-top: 15px;
+    width: 107%;
+    padding: 10px;
+    border-radius: 9px;
+    outline: none;
+    border: none;
+    font-size: 12px;
+    color: #080808;
+    font-style: bold;
+    background:rgb(55, 221, 55);
+    border: 2px solid rgba(255, 255, 255, .2);
+}
+
+@media (max-width:600px)
+{
+    .container{
+        height: 210px;  
+        width: 240px;
+        margin-left:140px;
+    }   
+    h1 {
+        font-size: 18px;
+    }
+    .container2{
+        height: 170px;  
+        width: 240px;
+        margin-left:140px;
+    }  
+}
