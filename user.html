@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manage User</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+<body>
+    <div class="container">
+        <h2>Manage User</h2>
+        <form id="userForm" action="user.php" method="post">
+            <div class="form-group">
+                <input type="text" id="name" name="name" placeholder="Name" required>
+            </div>
+            <div class="form-group">
+                <input type="text" id="company" name="company" placeholder="Compny" required>
+            </div>
+            <div class="form-group">
+                <input type="email" id="email" name="email" placeholder="Email" required>
+            </div>
+            <div class="form-group">
+                <input type="text" id="city" name="city" placeholder="City" required>
+            </div>
+            <div class="form-group">
+                <input type="text" id="state" name="state" placeholder="State" required>
+            </div>
+            <div class="form-group">
+                <input type="text" id="sponsorCode" name="sponsorCode" placeholder="SponsorCode" required>
+            </div>
+            <div class="form-group">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+       
+        
+<style>
+  
+body {
+    background-color:#fff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 400px;
+    height: 400px;
+    margin-left: 430px;
+    margin-top: 100px;
+    padding: 30px;
+    background-color: #0000ff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.container:hover {
+    transform: scale(1.1);
+}
+h2 {
+    text-align: center;
+    color: #fff;
+    font-family: sans-serif;
+}
+.form-group input{
+    float: left;
+    width: 100%;
+    height: 100%;
+    border-radius: 9px;
+    border: none;
+    outline: none;
+    background: white;
+    margin-left: -10px;
+    margin-top: 12px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.form-group button{
+    float: left;
+    margin-left: -10px;
+    margin-top: 15px;
+    width: 107%;
+    padding: 10px;
+    border-radius: 9px;
+    outline: none;
+    border: none;
+    font-size: 12px;
+    color: #fff;
+    font-style: bold;
+    background:rgb(55, 221, 55);
+    border: 2px solid rgba(255, 255, 255, .2);
+}
+
+/* #result {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e9ecef;
+    border-radius: 4px;
+    display: none;
+} */
+
+@media (max-width:600px){
+.container{
+    width: 300px;
+    height: 400px;
+    margin-left: 120px;
+}
+
+}
+
+  
+</style>
+
+</div>
+</body>
+</html>
